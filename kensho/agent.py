@@ -19,6 +19,7 @@ from kensho.tools import (
     explain_concept as explain_concept_tool_fn,
     summarize_session as summarize_session_tool_fn,
 )
+#gemini api key
 
 # --------------------------- Additional Tool Classes ---------------------------
 class ConceptExplainSchema(BaseModel):
